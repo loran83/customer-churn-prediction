@@ -24,3 +24,6 @@ Help the business identify high-risk customers and reduce churn.
 
 ## Tools
 Python, Pandas, Scikit-learn, CatBoost
+
+## Business Impact
+This model can help the company identify customers at risk of leaving and take proactive steps such as offering discounts or improving service, reducing churn and protecting revenue.
