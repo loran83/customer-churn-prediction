@@ -1,29 +1,24 @@
 # Customer Churn Prediction
 
-This project predicts whether telecom customers are likely to leave the company.
+## Overview
+This project focuses on predicting which customers are likely to leave a telecom company.
 
 ## Goal
-Help the business identify high-risk customers and reduce churn.
+The goal was to build a machine learning model that identifies high-risk customers and helps support retention strategies.
 
-## What I did
-- Merged multiple datasets (contract, personal, internet, phone)
-- Performed exploratory data analysis (EDA)
-- Engineered features such as tenure and total charges
-- Trained multiple models (Logistic Regression, Random Forest, CatBoost)
-- Evaluated performance using AUC-ROC
+## What I Did
+- Combined multiple datasets into one unified dataset
+- Performed exploratory data analysis to identify key patterns
+- Engineered features such as tenure
+- Trained multiple models including Logistic Regression, Random Forest, and CatBoost
+- Selected the best model based on performance
 
 ## Results
-- Best model: CatBoost
-- AUC-ROC: ~0.90
-- Model successfully identifies customers at risk of churn
+- Achieved an AUC-ROC of 0.90
+- Identified key drivers of churn such as contract type, tenure, and monthly charges
 
-## Key Insights
-- Month-to-month contracts have the highest churn
-- Higher monthly charges increase churn risk
-- Customers without tech support are more likely to leave
-
-## Tools
-Python, Pandas, Scikit-learn, CatBoost
-
-## Business Impact
-This model can help the company identify customers at risk of leaving and take proactive steps such as offering discounts or improving service, reducing churn and protecting revenue.
+## Tools Used
+- Python
+- Pandas
+- Scikit-learn
+- CatBoost
