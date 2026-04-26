@@ -31,5 +31,10 @@ The goal was to build a machine learning model that identifies high-risk custome
 ### Contract Type vs Churn
 ![Contract vs Churn](./contract-vs-churn.png)
 
+### Model Comparison
+![Model Results](./model-results.png)
+
 ### ROC Curve (Model Performance)
 ![ROC Curve](./roc-curve.png)
+
+
