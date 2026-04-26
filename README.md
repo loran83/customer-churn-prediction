@@ -22,3 +22,14 @@ The goal was to build a machine learning model that identifies high-risk custome
 - Pandas
 - Scikit-learn
 - CatBoost
+
+## Project Visuals
+
+### Churn Distribution
+![Churn Distribution](./churn-distribution.png)
+
+### Contract Type vs Churn
+![Contract vs Churn](./contract-vs-churn.png)
+
+### ROC Curve (Model Performance)
+![ROC Curve](./roc-curve.png)
